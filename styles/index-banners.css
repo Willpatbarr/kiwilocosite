@@ -1,0 +1,113 @@
+
+/* froyo banner */
+#froyo-banner {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(auto, 1fr));; /* 10 columns */
+    /* grid-template-rows: 5; 5 row */
+}
+
+#froyo-banner .text-box {
+    grid-column: 1 / 7;
+    grid-row: 1 / 5;
+}
+
+#froyo-banner .text-background {
+    background-color: aquamarine;
+    grid-column: 1 / 8;
+    grid-row: 1 / 5;
+}
+
+#froyo-banner .banner-image {
+    grid-column: 7 / 9;
+    grid-row: 2 / 6;
+}
+
+#froyo-banner .banner-button {
+    grid-column: 5 / 6;
+    grid-row: 4 / 6;
+    
+}
+
+
+/* boba banner */
+#boba-banner {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);; /* 10 columns */
+}
+
+#boba-banner .text-box {
+    grid-column: 5 / 11;
+    grid-row: 1 / 5;
+}
+
+#boba-banner .text-background {
+    background-color: aquamarine;
+    grid-column: 4 / 11;
+    grid-row: 1 / 5;
+}
+
+#boba-banner .banner-image {
+    grid-column: 3 / 5;
+    grid-row: 2 / 6;
+}
+
+#boba-banner .banner-button {
+    grid-column: 6 / 7;
+    grid-row: 4 / 6;
+    
+}
+
+/* milkshake banner */
+#milkshake-banner {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);; /* 10 columns */
+}
+
+#milkshake-banner .text-box {
+    grid-column: 1 / 7;
+    grid-row: 1 / 5;
+}
+
+#milkshake-banner .text-background {
+    background-color: aquamarine;
+    grid-column: 1 / 8;
+    grid-row: 1 / 5;
+}
+
+#milkshake-banner .banner-image {
+    grid-column: 7 / 9;
+    grid-row: 2 / 6;
+}
+
+#milkshake-banner .banner-button {
+    grid-column: 5 / 6;
+    grid-row: 4 / 6;
+    
+}
+
+/* generic styles */
+.banner {
+    margin-top: 4rem;
+}
+
+.banner .text-box {
+    padding: 2rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
+}
+
+.banner .text-background {
+    border-radius: 20px;
+}
+
+.banner .banner-button {
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 12px;
+}
+
+.banner .banner-image {
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+} 
